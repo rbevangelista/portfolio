@@ -82,7 +82,8 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #18bc9c;
+    background: url("../img/flower.jpg") no-repeat fixed 50% 50% rgba(0, 0, 0, 0);
+	height: 1080px;
 }
 
 header .container {
@@ -157,6 +158,9 @@ header .intro-text .skills {
     outline: 0;
 }
 
+
+.navbar-fixed-top.navbar-shrink .navbar-brand  a:hover{color:#fff !important;}
+
 .navbar .navbar-nav {
     letter-spacing: 1px;
 }
@@ -168,6 +172,8 @@ header .intro-text .skills {
 .navbar-default,
 .navbar-inverse {
     border: 0;
+	background:222;
+	opacity:0.2;
 }
 
 section {
@@ -194,16 +200,26 @@ section.success {
     }
 }
 
+#portfolio  .container{
+	width:100%;
+    padding: 0;
+	margin:0;
+}
+
 #portfolio .portfolio-item {
-    right: 0;
-    margin: 0 0 15px;
+    margin: 0 auto;
+	padding:0;
+}
+
+#portfolio .container .row .col-sm-4{
+	width:25%;
 }
 
 #portfolio .portfolio-item .portfolio-link {
     display: block;
     position: relative;
     margin: 0 auto;
-    max-width: 400px;
+
 }
 
 #portfolio .portfolio-item .portfolio-link .caption {
@@ -247,7 +263,7 @@ section.success {
 
 @media(min-width:767px) {
     #portfolio .portfolio-item {
-        margin: 0 0 30px;
+        margin: 0;
     }
 }
 
@@ -320,6 +336,13 @@ section.success {
 .floating-label-form-group-with-focus label {
     color: #18bc9c;
 }
+
+#contact h2 {
+text-align:center; padding:0 0 90px 0;
+}
+
+
+#contact .floating-label-form-group {border: 1px solid #ccc;}
 
 form .row:first-child .floating-label-form-group {
     border-top: 1px solid #eee;
@@ -443,3 +466,7 @@ footer .footer-below {
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
+
+
+
+
