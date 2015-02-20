@@ -82,7 +82,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: url("../img/flower.jpg") no-repeat fixed 50% 50% rgba(0, 0, 0, 0);
+    background: url("../img/rb.jpg") no-repeat fixed 50% 50% rgba(0, 0, 0, 0);
 	height: 1080px;
 }
 
@@ -173,7 +173,7 @@ header .intro-text .skills {
 .navbar-inverse {
     border: 0;
 	background:222;
-	opacity:0.2;
+	
 }
 
 section {
@@ -467,6 +467,10 @@ footer .footer-below {
     transform: rotate(90deg);
 }
 
+.col-lg-8 {
+	width:100%;
+}
 
-
-
+.col-lg-offset-2 {
+margin-left:0;
+}
