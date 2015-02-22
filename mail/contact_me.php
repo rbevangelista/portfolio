@@ -20,7 +20,7 @@ $to = 'rbevangelista20@gmail.com';
 $email_subject = "Website Contact Form:  $name";
 $email_body = "You have received a new message from your website contact form.\n\n"."Here are the details:\n\nName: $name\n\nEmail: $email_address\n\nPhone: $phone\n\nMessage:\n$message";
 $headers = "From: noreply@gmail.com\n"; 
-$headers .= "Reply-To: $email_address";	
+$headers .= "Reply-To: $rbevangelista20@gmail.com";	
 mail($to,$email_subject,$email_body,$headers);
 return true;			
 ?>
