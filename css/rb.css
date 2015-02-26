@@ -81,7 +81,7 @@ hr.star-primary:after {
 
 header {
     color: #fff;
-	background: url("../img/header_bg3.jpg") no-repeat fixed rgba(0, 0, 0, 0);
+	background: url("../img/header_bg4.jpg") no-repeat fixed rgba(0, 0, 0, 0);
 	-webkit-background-size: 100% auto;
 	-moz-background-size: 100% auto;
 	-o-background-size: 100% auto;
@@ -94,6 +94,7 @@ header {
 header .container {
     padding-top: 100px;
     padding-bottom: 50px;
+	width: 100%;
 }
 
 header img {
@@ -102,7 +103,7 @@ header img {
 }
 
 header .col-lg-9{
-	margin:12% 0 0 22%;
+	margin:12% 0 0 26%;
 	
 }
 
@@ -111,8 +112,13 @@ header .intro-text{
 }
 
 header .intro-text img{
-	float:left;
-	padding-right: 10px;
+	float: left;
+    margin-top: -4%;
+    padding-right: 1.2%;
+	-webkit-background-size: 100% auto;
+	-moz-background-size: 100% auto;
+	-o-background-size: 100% auto;
+	background-size: 100% auto;
 }
 
 
@@ -130,10 +136,6 @@ header .intro-text .skills {
 }
 
 @media(min-width:768px) {
-    header .container {
-        padding-top: 200px;
-    }
-
     header .intro-text .name {
         font-size: 4em;
     }
