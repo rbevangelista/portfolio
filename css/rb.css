@@ -115,7 +115,8 @@ header .intro-text .skills {
 
 @media(max-width:768px) {
     header {
-        background-attachment: none;    
+        background-attachment: none;
+        background-position: 0 -295px;   
     }
     
     .navbar-brand img {
@@ -134,15 +135,21 @@ header .intro-text .skills {
 @media only screen and (max-width : 767px) {
 
     header {
-        background-attachment: none;    
+        background-attachment: none;
+        background-position: 0 -295px;    
     }
 
 
     header .intro-text .name{
-        font-size:3em;
+        font-size:2em;
     }
     header .col-lg-11{
-        margin-top: 53%;
+        border-top-width: 1px;
+        margin-bottom: 0;
+        margin-left: -1%;
+        margin-right: 2%;
+        margin-top: 50%;
+        width: 55%;
     }
 
     .navbar-fixed-top.navbar-shrink {
@@ -161,7 +168,7 @@ header .intro-text .skills {
 @media(min-width:768px) {
   
     header {
-        background-attachment: none;    
+        background-attachment: none;   
     }
 
 
