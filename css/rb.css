@@ -114,6 +114,10 @@ header .intro-text .skills {
 
 
 @media(max-width:768px) {
+    header {
+        background-attachment: none;    
+    }
+    
     .navbar-brand img {
         height: 54px !important;   
         margin: 10px 15px 0 10px;   
@@ -128,6 +132,11 @@ header .intro-text .skills {
 
 
 @media only screen and (max-width : 767px) {
+
+    header {
+        background-attachment: none;    
+    }
+
 
     header .intro-text .name{
         font-size:3em;
@@ -150,6 +159,12 @@ header .intro-text .skills {
 
 
 @media(min-width:768px) {
+  
+    header {
+        background-attachment: none;    
+    }
+
+
   .navbar-fixed-top {
         padding: 25px 0;
         -webkit-transition: padding .3s;
