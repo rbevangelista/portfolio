@@ -84,8 +84,7 @@ header img {
     margin: 0 auto 20px;
 }
 
-header .col-lg-11{
-    margin:30% 0 0 15%;
+
 }
 
 
@@ -130,16 +129,6 @@ header .intro-text .skills {
         margin: 10px 15px 0 10px;   
     }
 
-    header .intro-text .name{
-        font-size:20px;
-    }
-
-    header .col-lg-11{
-        margin-left: 26%;
-        margin-top: 23%;
-
-    }
-
     .navbar-header.page-scroll {
         background:#081631;
     }
@@ -147,26 +136,41 @@ header .intro-text .skills {
 
 }
 
-@media only screen and (max-width : 767px) {
-    header {
-        padding-bottom: 409px;
-        -webkit-background-size: 100% auto;
-        -moz-background-size: 100% auto;
-        -o-background-size: 100% auto;
-        background-size: 100% auto;
+
+@media only screen and (max-width : 480px) {
+   header {
+        background-position: 68% 45%;
     }
     header .intro-text .name{
-        font-size:20px;
+        font-size:1.6em !important;
+    }
+    header .col-lg-11 {
+        margin-left: 48% !important;
+        margin-top: 67% !important;
+    }
+}
+
+
+@media only screen and (max-width : 767px) {
+    
+    header {
+        background-position: 14% 93%;
+    }
+
+    header .intro-text .name{
+        font-size:3em;
     }
     header .col-lg-11{
-        margin-left: 24%;
-        margin-top: 20%;
+        margin-left: 28%;
+        margin-top: 53%;
     }
 
     .navbar-fixed-top.navbar-shrink {
         padding: 0; 
-        margin-left: 15px;
     }
+
+
+
 
    #portfolio {
         padding-top: 0px;
@@ -203,9 +207,26 @@ header .intro-text .skills {
     }
 
     header {
-        background-position: 30% 0;
+        background-position: 18% 11%;
     }
+        header .col-lg-11 {
+            margin-bottom: 0;
+            margin-left: 39%;
+            margin-right: 0;
+            margin-top: 29%;
+    }
+
 }
+
+
+
+    @media only screen and (min-width : 992px) {
+        header .col-lg-11{
+            margin:30% 0 0 26%;
+        }
+    }
+
+
 
 .navbar {
     text-transform: uppercase;
