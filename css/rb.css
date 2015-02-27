@@ -76,10 +76,6 @@ hr.star-primary:after {
 header {
     color: #fff;
 	background: url("../img/header_bg4.jpg") no-repeat fixed rgba(0, 0, 0, 0);
-	-webkit-background-size: 100% auto;
-	-moz-background-size: 100% auto;
-	-o-background-size: 100% auto;
-	background-size: 100% auto;
 	padding:0 0 768px 0;
 }
 
@@ -110,6 +106,8 @@ header .intro-text .skills {
 	font-weight:bold;
 }
 
+
+
 .navbar-brand {
     padding: 0;
     margin-top: -7px;
@@ -117,7 +115,10 @@ header .intro-text .skills {
 
 }
 
- .navbar-fixed-top.navbar-shrink .navbar-brand img {
+
+
+
+.navbar-fixed-top.navbar-shrink .navbar-brand img {
         height: 72px;       
  }
 
@@ -126,35 +127,63 @@ header .intro-text .skills {
 @media(max-width:768px) {
     .navbar-brand img {
         height: 54px !important;   
-        margin: 10px 10px 0 10px;   
+        margin: 10px 15px 0 10px;   
     }
 
     header .intro-text .name{
-        font-size:2em;
+        font-size:20px;
     }
 
     header .col-lg-11{
-     margin-left: 26%;
-     margin-top: 20%;
+        margin-left: 26%;
+        margin-top: 23%;
+
     }
+
+    .navbar-header.page-scroll {
+        background:#081631;
+    }
+
 
 }
 
-@media(min-width:768px) {
-    header .intro-text .name {
-        font-size: 4em;
+@media only screen and (max-width : 767px) {
+    header {
+        padding-bottom: 409px;
+        -webkit-background-size: 100% auto;
+        -moz-background-size: 100% auto;
+        -o-background-size: 100% auto;
+        background-size: 100% auto;
     }
+    header .intro-text .name{
+        font-size:20px;
+    }
+    header .col-lg-11{
+        margin-left: 24%;
+        margin-top: 20%;
+    }
+
+    .navbar-fixed-top.navbar-shrink {
+        padding: 0; 
+        margin-left: 15px;
+    }
+
+   #portfolio {
+        padding-top: 0px;
+        margin-top: -280px;
+   }
+
 
 }
 
 
 @media(min-width:768px) {
-    .navbar-fixed-top {
+  .navbar-fixed-top {
         padding: 25px 0;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
-		background:none;
+        background:none;
     }
 
     .navbar-fixed-top .navbar-brand {
@@ -166,14 +195,16 @@ header .intro-text .skills {
 
     .navbar-fixed-top.navbar-shrink {
         padding: 10px 0;
-		background:#f1c40f;
+        background:#081631;
     }
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
 
-
+    header {
+        background-position: 30% 0;
+    }
 }
 
 .navbar {
@@ -205,7 +236,7 @@ header .intro-text .skills {
 }
 
 section {
-    padding: 35px 0 0 0;
+    padding: 35px 0;
 }
 
 section h2 {
@@ -219,20 +250,16 @@ section.success {
 	padding:35px 0 35px 0;
 }
 
-@media(max-width:767px) {
-    section {
-        padding: 75px 0;
-    }
 
-    section.first {
-        padding-top: 75px;
-    }
+#portfolio h2 {
+    padding-bottom: 15px;
 }
 
 
 #portfolio {
-	margin-top: -330px;
+	
 	background-color:#fff;
+
 }
 
 #portfolio  .container{
@@ -291,6 +318,9 @@ section.success {
 
 #portfolio * {
     z-index: 2;
+    width: 100%;
+    margin:0;
+
 }
 
 
