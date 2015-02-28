@@ -75,7 +75,7 @@ hr.star-primary:after {
 
 header {
     color: #fff;
-	background: url("../img/header_bg4.jpg") no-repeat fixed rgba(0, 0, 0, 0);
+	background: url("../img/header_bg5.jpg") no-repeat fixed rgba(0, 0, 0, 0);
 	padding:0 0 768px 0;
 }
 
@@ -113,10 +113,59 @@ header .intro-text .skills {
 
 
 
-@media(max-width:768px) {
+@media(max-width : 480px) {
+
+    header .intro-text .name{
+        font-size:2em;
+    }
+
+    header .col-lg-11{
+        border-top-width: 1px;
+        margin-bottom: 0;
+        margin-left: -1%;
+        margin-right: 2%;
+        margin-top: 52%;
+        width: 55%;
+    }
+}
+
+
+@media only screen and (max-width : 767px) {
+
     header {
         background-attachment: none;
-        background-position: 0 -295px;   
+        height: 895px;
+    }
+
+
+    header .intro-text .name{
+        font-size:2em;
+    }
+    header .col-lg-11{
+        border-top-width: 1px;
+        margin-bottom: 0;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 24%;
+        width: 53%;
+    }
+
+    .navbar-fixed-top.navbar-shrink {
+        padding: 0; 
+    }
+
+   #portfolio {
+        padding-top: 15px;
+        margin-top: -280px;
+   }
+
+}
+
+
+@media(max-width: 768px) {
+    header {
+        background-attachment: none;
+        background-position: 0 -295px; 
     }
     
     .navbar-brand img {
@@ -127,48 +176,13 @@ header .intro-text .skills {
     .navbar-header.page-scroll {
         background:#081631;
     }
-
-
-}
-
-
-@media only screen and (max-width : 767px) {
-
-    header {
-        background-attachment: none;
-        background-position: 0 -295px;    
-    }
-
-
-    header .intro-text .name{
-        font-size:2em;
-    }
-    header .col-lg-11{
-        border-top-width: 1px;
-        margin-bottom: 0;
-        margin-left: -1%;
-        margin-right: 2%;
-        margin-top: 50%;
-        width: 55%;
-    }
-
-    .navbar-fixed-top.navbar-shrink {
-        padding: 0; 
-    }
-
-   #portfolio {
-        padding-top: 0px;
-        margin-top: -280px;
-   }
-
-
 }
 
 
 @media(min-width:768px) {
   
     header {
-        background-attachment: none;   
+        background-attachment: none;
     }
 
 
