@@ -76,7 +76,7 @@ hr.star-primary:after {
 header {
     color: #fff;
 	background: url("../img/header_bg6.jpg") no-repeat fixed rgba(0, 0, 0, 0);
-	padding:0 0 768px 0;
+    height: 1080px;
 }
 
 header img {
@@ -98,17 +98,18 @@ header .intro-text .name {
 }
 
 header .intro-text .skills {
-    color:#fcff00;
+    color:rgb(24, 188, 156);
 	font-weight:bold;
 }
 
-.navbar-brand {
-    padding: 0;
-    margin-top: -7px;
+.navbar-brand { 
+
 }
+   
 
 .navbar-fixed-top.navbar-shrink .navbar-brand img {
-        height: 72px;       
+        height: 72px;
+        margin-left: 13px;      
  }
 
 
@@ -431,9 +432,22 @@ section.success {
     color: #18bc9c;
 }
 
-#contact h2 {
-text-align:center; padding:0 0 90px 0;
+
+#contact {
+    background: url("../img/contact_bg.jpg") no-repeat center bottom fixed rgba(0, 0, 0, 0);
+    padding: 90px 0;
+    color: #35295f;
+    letter-spacing: 1px;
+
 }
+
+#contact h1{
+    font-size: 65px;
+    margin-top: -5px;
+    margin-bottom: 0;
+}
+
+
 
 
 #contact .floating-label-form-group {border: 1px solid #ccc; margin:5px;}
