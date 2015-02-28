@@ -113,21 +113,6 @@ header .intro-text .skills {
 
 
 
-@media(max-width : 480px) {
-
-    header .intro-text .name{
-        font-size:2em;
-    }
-
-    header .col-lg-11{
-        border-top-width: 1px;
-        margin-bottom: 0;
-        margin-left: -1%;
-        margin-right: 2%;
-        margin-top: 52%;
-        width: 55%;
-    }
-}
 
 
 @media only screen and (max-width : 767px) {
@@ -146,7 +131,7 @@ header .intro-text .skills {
         margin-bottom: 0;
         margin-left: 2%;
         margin-right: 2%;
-        margin-top: 24%;
+        margin-top: 100px;
         width: 53%;
     }
 
@@ -212,7 +197,6 @@ header .intro-text .skills {
 
      header .col-lg-11 {
          margin-bottom: 0;
-         margin-left: 39%;
          margin-right: 0;
          margin-top: 29%;
     }
@@ -223,7 +207,11 @@ header .intro-text .skills {
 
     @media only screen and (min-width : 992px) {
         header .col-lg-11{
-            margin:30% 0 0 26%;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 30%;
+        padding-left: 9%;
         }
     }
 
