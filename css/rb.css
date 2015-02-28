@@ -119,7 +119,7 @@ header .intro-text .skills {
 
     header {
         background-attachment: none;
-        height: 895px;
+        height: 767px;
     }
 
 
@@ -129,10 +129,10 @@ header .intro-text .skills {
     header .col-lg-11{
         border-top-width: 1px;
         margin-bottom: 0;
-        margin-left: 2%;
+        margin-left: 0;
         margin-right: 2%;
-        margin-top: 100px;
-        width: 53%;
+        margin-top: 200px;
+        width: 78%;
     }
 
     .navbar-fixed-top.navbar-shrink {
