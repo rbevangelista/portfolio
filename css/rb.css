@@ -124,6 +124,11 @@ header .intro-text .skills {
         height: 820px !important;
     }
 
+
+    #contact h1{
+        font-size: 45px !important;
+    }  
+
 }
 
 
