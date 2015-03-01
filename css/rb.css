@@ -157,13 +157,18 @@ header .intro-text .skills {
 
     header .col-lg-11 {
         margin-top: 140px !important;
+        padding-left: 10px !important;
+
     }
 
     .intro-text{
-        width: 190px;
+        width: 260px;
         margin-top: 0;
         overflow: visible;
         height:480px;
+        margin-left: inherit;
+
+
 
     }
 
