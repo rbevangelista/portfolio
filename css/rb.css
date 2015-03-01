@@ -161,14 +161,14 @@ header .intro-text .skills {
 
     .intro-text{
         width: 190px;
-        margin-top: -55px;
+        margin-top: 0;
         overflow: visible;
         height:480px;
 
     }
 
     .typed-cursor{
-        font-size: 2em !important;
+        font-size: 0.8em !important;
     }
 
     .navbar-fixed-top .navbar-brand {
