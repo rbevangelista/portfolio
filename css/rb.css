@@ -148,11 +148,11 @@ header .intro-text .skills {
 @media only screen and (max-width : 767px) {
 
     header .intro-text .name{
-        font-size:2.7em !important;
+        font-size:2.4em !important;
     }
 
     header .col-lg-11 {
-        margin-top: 105px;
+        margin-top: 140px !important;
     }
 
     .intro-text{
