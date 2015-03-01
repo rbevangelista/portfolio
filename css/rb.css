@@ -128,10 +128,6 @@ header .intro-text .skills {
         margin-left: -30%;
     }
 
-    header .intro-text .skills{
-        font-size: 55px;    
-    }
-
     header {
         height: 850px !important;
         background-position: -108px -297px;
@@ -151,6 +147,10 @@ header .intro-text .skills {
 
 @media only screen and (max-width : 767px) {
 
+    header .intro-text .skills{
+        font-size: 55px;    
+    }
+
     header .intro-text .name{
         font-size:2.4em !important;
     }
@@ -162,8 +162,11 @@ header .intro-text .skills {
     .intro-text{
         margin-left: -30%;
         margin-top: -20%;
-        width: 50%;
+        width: 80%;
+    }
 
+    .typed-cursor{
+        font-size: 2em !important;
     }
 
     .navbar-fixed-top .navbar-brand {
