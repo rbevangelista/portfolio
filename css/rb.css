@@ -128,6 +128,10 @@ header .intro-text .skills {
         margin-left: -30%;
     }
 
+    header .intro-text .skills{
+        font-size: 55px;    
+    }
+
     header {
         height: 850px !important;
         background-position: -108px -297px;
