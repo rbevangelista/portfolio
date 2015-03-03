@@ -341,11 +341,7 @@ section.success {
 }
 
 
-#portfolio  .container{
-	width:100%;
-    padding: 0;
-	margin:0;
-}
+
 
 #portfolio .portfolio-item {
     margin: 0 auto;
@@ -393,12 +389,6 @@ section.success {
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
     margin: 0;
-}
-
-#portfolio * {
-    z-index: 2;
-    margin:0;
-
 }
 
 
