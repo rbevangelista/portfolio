@@ -197,7 +197,7 @@ header .intro-text .skills {
     }
 
     #contact h1 {
-        font-size: 50px;
+        font-size: 45px !important;
         letter-spacing: 0;
     }
 
@@ -233,13 +233,6 @@ header .intro-text .skills {
         font-size: 0.8em !important;
     }
 
-    #contact {
-        color: #fff !important;
-    }
-
-    #contact h1{
-        font-size: 45px !important;
-    }  
 
     .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
         background-color:rgb(24, 188, 156);
