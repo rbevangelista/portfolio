@@ -78,7 +78,7 @@ hr.star-primary:after {
 header {
     height: 969px;
     color: rgb(24, 188, 156);
-	background: url("../img/header_bg9.jpg") no-repeat fixed rgba(0, 0, 0, 0);
+	background: url("../img/header_bg8.jpg") no-repeat fixed rgba(0, 0, 0, 0);
     background-position: center center;
     background-size:  -webkit-background-size: cover;
       -moz-background-size: cover;
@@ -196,6 +196,26 @@ header .intro-text .skills {
         letter-spacing: 10px;
     }
 
+    header .container {
+        padding-bottom: 100px;
+        padding-top: 90px;
+    }
+
+    .navbar-default {
+        font-size: 12px !important;
+        letter-spacing: 0.5px;
+        padding-bottom: 0 !important;
+        padding-left: 10px !important;
+        padding-right: 0 !important;
+        padding-top: 0 !important;
+    }
+
+    #portfolio {
+    background-color:#fff;
+    margin-top:-300px;
+    }
+
+
     .intro-text{
         width: 260px;
         margin-top: 0;
@@ -222,8 +242,8 @@ header .intro-text .skills {
 
     .nav > li {
         text-align: center;
-        background-color:rgb(40, 40, 40);
     }
+
 }
 
 
@@ -320,12 +340,6 @@ section.success {
     padding: 30px;
 }
 
-
-#portfolio {
-	
-	background-color:#fff;
-
-}
 
 #portfolio  .container{
 	width:100%;
