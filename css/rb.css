@@ -78,7 +78,7 @@ hr.star-primary:after {
 header {
     height: 969px;
     color: rgb(24, 188, 156);
-	background: url("../img/header_bg8.jpg") no-repeat fixed rgba(0, 0, 0, 0);
+	background: url("../img/header_bg7.jpg") no-repeat fixed rgba(0, 0, 0, 0);
     background-position: center center;
     background-size:  -webkit-background-size: cover;
       -moz-background-size: cover;
@@ -220,6 +220,9 @@ header .intro-text .skills {
         margin-top:-300px;
     }
 
+	section h2 {
+	font-size: 18px;
+	}
 
     .intro-text{
         width: 260px;
@@ -555,6 +558,9 @@ footer .footer-below {
     border-radius: 100%;
     font-size: 20px;
     line-height: 28px;
+	background-color:#111;
+	border-bottom-color: #000;
+	opacity:0.8;
 }
 
 .scroll-top .btn:focus {
