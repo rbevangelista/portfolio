@@ -193,6 +193,12 @@ header .intro-text .skills {
 }
 
 
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	background-color:#000;
+}
+
+
+
 
 @media (max-width : 767px) {
 
@@ -211,7 +217,6 @@ header .intro-text .skills {
         padding-top: 90px;
     }
 
-	
     .navbar-default {
         font-size: 12px !important;
         letter-spacing: 0.5px;
