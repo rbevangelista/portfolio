@@ -221,7 +221,7 @@ header .intro-text .skills {
     }
 
 	section h2 {
-	font-size: 18px;
+	font-size: 18px !important;
 	}
 
     .intro-text{
