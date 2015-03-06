@@ -175,15 +175,15 @@ header img {
 
 
 #about .intro-text{
-	height: 280px;
     margin-left: 20px;
-    margin-top: 20px;
+    margin-top: 150px;
+    margin-bottom:150px;
     text-align: left;
 }
 
 #about .intro-text .name {
     font-family:Raleway,Helvetica,Arial,sans-serif;
-    font-size: 4em;
+    font-size: 2.5em;
     font-weight: 300;
 	line-height:1;
 	text-align:left;
@@ -254,11 +254,11 @@ header img {
     }
 
     .intro-text{
-        width: 153px;
+        width: 200px;
         margin-top: 0;
         overflow: visible;
-        height:480px;
         margin-left: inherit;
+        height: 180px;
     }
 
     .typed-cursor{
@@ -454,6 +454,9 @@ section.success {
 
 .section-about-bottom i {
     transition: all 0.2s ease 0s;
+    -moz-transition: all 0.2s ease 0s;
+    -webkit-transition: all 0.2s ease 0s;
+    -o-transition: all 0.2s ease 0s;
     border: 2px solid #FFF;
     border-radius: 50%;
     color: #777;
@@ -541,6 +544,14 @@ section.success {
 section.success{
     padding:0 !important;
 }
+
+.personal-blurb:hover i {
+    color: #0FB5B3;
+    border: 2px solid #0FB5B3;
+}
+
+
+
 
 
 #portfolio {
@@ -832,3 +843,6 @@ footer .footer-below {
     margin:0;
     overflow: hidden;
 }
+
+
+
