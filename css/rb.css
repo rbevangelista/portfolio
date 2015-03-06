@@ -1,11 +1,11 @@
 body {
     overflow-x: hidden;
-    color: rgb(40, 40, 40);
+    font-family: Raleway,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 2;
+    color: #333;
 }
 
-p {
-    font-size: 20px;
-}
 
 p.small {
     font-size: 16px;
@@ -107,6 +107,18 @@ header {
 
 }
 
+.black-overlay2 {
+    background-color: #000;
+    background-size: auto auto;
+    opacity: 0.7;
+    height: 100%;
+    left: 0;
+    position: static;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+
 .pattern {
     background-image: url("../img/black-dot-bg.png");    
     left: 0px; 
@@ -163,8 +175,10 @@ header img {
 
 
 #about .intro-text{
-	text-align:left;
-    height: 300px;
+	height: 280px;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: left;
 }
 
 #about .intro-text .name {
@@ -173,7 +187,7 @@ header img {
     font-weight: 300;
 	line-height:1;
 	text-align:left;
-    color: #4bf9ff;
+    color: rgb(15, 181, 179);
 }
 
 #about .intro-text .skills {
@@ -181,7 +195,10 @@ header img {
 	font-weight:bold;
 }
 
-#about h2 { text-align: left;}
+#about h4 { 
+    text-align: left;
+    padding: 15px 0 30px 0;
+}
 
 
 .navbar-default .navbar-nav > li > a {
@@ -228,19 +245,15 @@ header img {
 
     #portfolio {
         background-color:#fff;
-        margin-top:-300px;
     }
 
-	section h2 {
-	font-size: 18px !important;
-	}
 
     #about .intro-text .name {
-        font-size: 2.5em;
+        font-size: 2em;
     }
 
     .intro-text{
-        width: 260px;
+        width: 153px;
         margin-top: 0;
         overflow: visible;
         height:480px;
@@ -285,14 +298,9 @@ header img {
 }
 
 
-.navbar-brand {
-	color:rgb(227, 0, 91) !important;
-}
-
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
 	color:#fff;
 }
-
 
 
 .navbar-fixed-top .navbar-brand {
@@ -364,6 +372,151 @@ section.success {
     background: #18bc9c;
 	padding:35px 0 35px 0;
 }
+
+
+#profile h1 {
+
+}
+
+#profile p {
+    font-size: 22px;
+}
+
+.section-about-top {
+    background-color: rgb(15, 181, 179);
+    color: rgb(255, 255, 255);
+    padding-bottom: 165px;
+    padding-top: 100px;
+    position: relative;
+    z-index: 3;
+}
+
+.cursor-tag {
+    color:#d80b36;
+}
+.text-center {
+    text-align: center;
+}
+
+.avatar-lg {
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    height: 160px;
+    width: 160px;
+}
+
+.section-about-top .avatar-lg {
+    border: 5px solid #FFF;
+    position: absolute;
+    bottom: -85px;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.section-offer {
+    background-color: #EEE;
+    border-top: 1px solid #D9D7D8;
+    border-bottom: 1px solid #D9D7D8;
+}
+
+
+.section-about-bottom {
+    padding-top: 165px;
+    padding-bottom: 100px;
+    background-color: #FFF;
+    position: relative;
+    z-index: 2;
+}
+
+.icons {
+    font-size: 40px;
+}
+
+.section-about-bottom i {
+    transition: all 0.2s ease 0s;
+    border: 2px solid #FFF;
+    border-radius: 50%;
+    color: #777;
+    padding: 40px;
+}
+
+.text-muted {
+    color: #777;
+}
+
+
+.section-offer {
+    background-color: #EEE;
+    border-top: 1px solid #D9D7D8;
+    border-bottom: 1px solid #D9D7D8;
+}
+
+.global-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+    z-index: 2;
+}
+
+.margin-btm-50 {
+    margin-bottom: 50px;
+}
+
+.offer:hover {
+    color: #FFF;
+    background-color: #0FB5B3;
+    border: 1px solid #FFF;
+}
+
+.offer {
+    position: relative;
+    padding: 30px 30px 30px 100px;
+    background-color: transparent;
+    border: 1px solid #D9D7D8;
+    border-radius: 6px;
+    transition: all 0.2s ease 0s;
+    -webkit-transition: all 0.2s ease 0s;
+    -moz-transition: all 0.2s ease 0s;
+    -o-transition: all 0.2s ease 0s;
+    word-wrap: break-word;
+}
+
+.offer-icon {
+    color: #777;
+    position: absolute;
+    left: 30px;
+    top: 40px;
+    transition: all 0.2s ease 0s;
+    -webkit-transition: all 0.2s ease 0s;
+    -moz-transition: all 0.2s ease 0s;
+    -o-transition: all 0.2s ease 0s;
+    line-height: 0;
+}
+
+.offer:hover .offer-icon {
+    color: #FFF;
+}
+
+.margin-btm-30 {
+    margin-bottom: 30px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 #about {
