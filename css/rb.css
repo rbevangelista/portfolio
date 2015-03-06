@@ -264,6 +264,13 @@ header img {
         font-size: 0.8em !important;
     }
 
+    header .separator {
+        margin:0 auto 10px;
+    }
+
+    header p {
+        line-height: 1.5;
+    }
 
     .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
         background-color:rgb(227, 0, 91);
@@ -272,6 +279,16 @@ header img {
     .nav > li {
         text-align: center;
     }
+
+    #profile {
+        margin-top: -300px;
+    }
+
+    .section-about-top {
+        padding-bottom: 140px !important;
+        padding-top: 50px !important;
+    }
+
 
 }
 
@@ -506,17 +523,6 @@ section.success {
 * {
     box-sizing: border-box;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 #about {
