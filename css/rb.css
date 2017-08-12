@@ -555,20 +555,19 @@ section.success{
 
 
 #portfolio {
-	background-color:#000;
+	background-color:#eee;
+    padding:30px 0 50px;
 }
 
 #portfolio h2 {
     padding: 30px 0;
-	color:#fff;
 }
 
 
 
 
 #portfolio .portfolio-item {
-    margin: 0 auto;
-	padding:0;
+    margin: 15px auto;
 }
 
 
@@ -838,9 +837,9 @@ footer .footer-below {
 
 
 #portfolio  .container{
-    width:100%;
+    
     padding: 0;
-    margin:0;
+    margin:0 auto;
     overflow: hidden;
 }
 
