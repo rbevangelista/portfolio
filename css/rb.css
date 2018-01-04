@@ -290,7 +290,14 @@ header img {
         padding-top: 50px !important;
     }
 
-
+    #portfolio .portfolio-item {
+        margin: 15px !important;
+    }
+    .navbar-default,
+    .navbar-inverse {
+        background:#111 !important;
+        
+    }
 }
 
 
@@ -372,8 +379,6 @@ header img {
 .navbar-default,
 .navbar-inverse {
     border: 0;
-	background:222;
-	
 }
 
 
@@ -567,7 +572,7 @@ section.success{
 
 
 #portfolio .portfolio-item {
-    margin: 15px auto;
+    margin: 15px 0;
 }
 
 
@@ -575,7 +580,7 @@ section.success{
     display: block;
     position: relative;
     margin: 0 auto;
-
+    border: 15px solid white;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption {
