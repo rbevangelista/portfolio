@@ -78,7 +78,7 @@ hr.star-primary:after {
 header {
     height: 969px;
     color: rgb(24, 188, 156);
-	background: url("../img/header_bg7.jpg") no-repeat fixed rgba(0, 0, 0, 0);
+	background: url("../img/rbbg.jpg") no-repeat fixed rgba(0, 0, 0, 0);
     background-position: center center;
     background-size:  -webkit-background-size: cover;
       -moz-background-size: cover;
@@ -203,7 +203,7 @@ header img {
 
 
 .navbar-default .navbar-nav > li > a {
-    color: #e3005b;
+    color: #9be9f7;
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
